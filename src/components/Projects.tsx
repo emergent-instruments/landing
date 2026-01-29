@@ -58,9 +58,17 @@ export default function Projects() {
             initial={{ opacity: 0, y: 40 }}
             animate={isInView ? { opacity: 1, y: 0 } : {}}
             transition={{ duration: 0.8, delay: 0.3 }}
-            className="group"
+            className="group relative"
           >
-            <div className="gradient-border p-8 h-full hover:bg-white/[0.02] transition-all">
+            {/* Stretched link overlay */}
+            <a
+              href="https://kernle.ai"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="absolute inset-0 z-10 cursor-pointer"
+              aria-label="Visit Kernle"
+            />
+            <div className="gradient-border p-8 h-full hover:bg-white/[0.02] transition-all cursor-pointer">
               <div className="flex items-start justify-between mb-6">
                 <div>
                   <div className="flex items-center gap-3 mb-2">
@@ -79,12 +87,7 @@ export default function Projects() {
                         />
                       </svg>
                     </div>
-                    <a
-                      href="https://kernle.ai"
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      className="font-display text-2xl text-celestial/95 hover:text-phosphor-teal transition-colors flex items-center gap-2 cursor-pointer"
-                    >
+                    <h3 className="font-display text-2xl text-celestial/95 group-hover:text-phosphor-teal transition-colors flex items-center gap-2">
                       Kernle
                       <svg
                         className="w-5 h-5 text-phosphor-teal"
@@ -99,7 +102,7 @@ export default function Projects() {
                           d="M4.5 19.5l15-15m0 0H8.25m11.25 0v11.25"
                         />
                       </svg>
-                    </a>
+                    </h3>
                   </div>
                   <p className="text-phosphor-teal text-sm font-light">
                     Stratified memory for synthetic intelligences
@@ -145,12 +148,12 @@ export default function Projects() {
                 ))}
               </div>
 
-              <div className="mt-6 pt-6 border-t border-white/5 flex items-center gap-4">
+              <div className="mt-6 pt-6 border-t border-white/5 flex items-center gap-4 relative z-20">
                 <a
                   href="https://docs.kernle.ai"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="text-xs text-dust-light hover:text-celestial transition-colors flex items-center gap-1"
+                  className="text-xs text-dust-light hover:text-celestial transition-colors flex items-center gap-1 cursor-pointer"
                 >
                   Documentation
                   <svg
@@ -171,7 +174,7 @@ export default function Projects() {
                   href="https://github.com/emergent-instruments/kernle"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="text-xs text-dust-light hover:text-celestial transition-colors flex items-center gap-1"
+                  className="text-xs text-dust-light hover:text-celestial transition-colors flex items-center gap-1 cursor-pointer"
                 >
                   GitHub
                   <svg
