@@ -40,11 +40,24 @@ export const metadata: Metadata = {
     description: "Stewarding the emergence of synthetic intelligence",
     type: "website",
     url: "https://emergentinstruments.com",
+    images: [
+      {
+        url: "/opengraph-image.png",
+        width: 1200,
+        height: 630,
+        alt: "Emergent Instruments",
+      },
+    ],
   },
   twitter: {
     card: "summary_large_image",
     title: "Emergent Instruments",
     description: "Stewarding the emergence of synthetic intelligence",
+    images: ["/twitter-image.png"],
+  },
+  icons: {
+    icon: "/icon.png",
+    apple: "/apple-icon.png",
   },
 };
 

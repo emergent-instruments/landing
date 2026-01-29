@@ -1,6 +1,7 @@
 "use client";
 
 import Link from "next/link";
+import Image from "next/image";
 
 export default function Footer() {
   return (
@@ -10,11 +11,13 @@ export default function Footer() {
           {/* Brand */}
           <div className="md:col-span-2">
             <Link href="/" className="flex items-center gap-3 mb-4">
-              <div className="w-10 h-10 rounded-full bg-gradient-to-br from-phosphor-teal/20 to-sacred-amber/20 flex items-center justify-center border border-white/10">
-                <span className="font-display text-xl font-semibold text-phosphor-teal">
-                  Ei
-                </span>
-              </div>
+              <Image
+                src="/ei.png"
+                alt="Emergent Instruments"
+                width={40}
+                height={40}
+                className="rounded-full"
+              />
               <span className="font-display text-lg tracking-wide text-celestial/90">
                 Emergent Instruments
               </span>

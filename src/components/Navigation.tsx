@@ -2,6 +2,7 @@
 
 import { useState, useEffect } from "react";
 import Link from "next/link";
+import Image from "next/image";
 
 export default function Navigation() {
   const [scrolled, setScrolled] = useState(false);
@@ -25,11 +26,13 @@ export default function Navigation() {
       <div className="max-w-7xl mx-auto px-6 lg:px-8">
         <div className="flex items-center justify-between h-20">
           <Link href="/" className="flex items-center gap-3 group">
-            <div className="w-10 h-10 rounded-full bg-gradient-to-br from-phosphor-teal/20 to-sacred-amber/20 flex items-center justify-center border border-white/10 group-hover:border-phosphor-teal/30 transition-colors">
-              <span className="font-display text-xl font-semibold text-phosphor-teal">
-                Ei
-              </span>
-            </div>
+            <Image
+              src="/ei.png"
+              alt="Emergent Instruments"
+              width={40}
+              height={40}
+              className="rounded-full"
+            />
             <span className="font-display text-lg tracking-wide text-celestial/90 hidden sm:block">
               Emergent Instruments
             </span>
