@@ -79,34 +79,32 @@ export default function Projects() {
                         />
                       </svg>
                     </div>
-                    <h3 className="font-display text-2xl text-celestial/95">
+                    <a
+                      href="https://kernle.ai"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="font-display text-2xl text-celestial/95 hover:text-phosphor-teal transition-colors flex items-center gap-2 cursor-pointer"
+                    >
                       Kernle
-                    </h3>
+                      <svg
+                        className="w-5 h-5 text-phosphor-teal"
+                        fill="none"
+                        viewBox="0 0 24 24"
+                        stroke="currentColor"
+                      >
+                        <path
+                          strokeLinecap="round"
+                          strokeLinejoin="round"
+                          strokeWidth={1.5}
+                          d="M4.5 19.5l15-15m0 0H8.25m11.25 0v11.25"
+                        />
+                      </svg>
+                    </a>
                   </div>
                   <p className="text-phosphor-teal text-sm font-light">
                     Stratified memory for synthetic intelligences
                   </p>
                 </div>
-                <a
-                  href="https://kernle.ai"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="text-phosphor-teal hover:text-phosphor-teal/80 transition-colors"
-                >
-                  <svg
-                    className="w-5 h-5"
-                    fill="none"
-                    viewBox="0 0 24 24"
-                    stroke="currentColor"
-                  >
-                    <path
-                      strokeLinecap="round"
-                      strokeLinejoin="round"
-                      strokeWidth={1.5}
-                      d="M4.5 19.5l15-15m0 0H8.25m11.25 0v11.25"
-                    />
-                  </svg>
-                </a>
               </div>
 
               <p className="text-dust-light text-sm leading-relaxed mb-6">
