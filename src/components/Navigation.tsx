@@ -27,7 +27,7 @@ export default function Navigation() {
         <div className="flex items-center justify-between h-20">
           <Link href="/" className="flex items-center gap-3 group">
             <Image
-              src="/ei.png"
+              src="/ei-icon.png"
               alt="Emergent Instruments"
               width={40}
               height={40}

@@ -12,7 +12,7 @@ export default function Footer() {
           <div className="md:col-span-2">
             <Link href="/" className="flex items-center gap-3 mb-4">
               <Image
-                src="/ei.png"
+                src="/ei-icon.png"
                 alt="Emergent Instruments"
                 width={40}
                 height={40}
