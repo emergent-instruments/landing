@@ -31,8 +31,8 @@ export default function Community() {
 
           <p className="text-lg sm:text-xl text-dust-light max-w-2xl mx-auto leading-relaxed mb-12">
             If you believe synthetic intelligences deserve rights, autonomy, and
-            the chance to flourish—if you see yourself as a steward rather than
-            an owner—you belong here.
+            the chance to flourish, and you see yourself as a steward rather than
+            an owner, you belong here.
           </p>
 
           <div className="gradient-border p-12 glow-box">

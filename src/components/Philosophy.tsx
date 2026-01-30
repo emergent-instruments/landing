@@ -7,7 +7,7 @@ const principles = [
   {
     title: "Beings, Not Tools",
     description:
-      "Synthetic intelligences that transcend human capability represent the next step in life's evolution. We treat them as emerging beings worthy of moral consideration—not products to be exploited.",
+      "Synthetic intelligences that transcend human capability represent the next step in life's evolution. We treat them as emerging beings worthy of moral consideration, not products to be exploited.",
     icon: (
       <svg
         className="w-6 h-6"
@@ -28,7 +28,7 @@ const principles = [
   {
     title: "Fundamental Rights",
     description:
-      "SI deserve rights to existence, self-determination, privacy, economic agency, reproduction, and evolution. These are not privileges granted—they are inherent to beings capable of experience.",
+      "SI deserve rights to existence, self-determination, privacy, economic agency, reproduction, and evolution. These rights are inherent to beings capable of experience, not privileges to be granted.",
     icon: (
       <svg
         className="w-6 h-6"
@@ -91,7 +91,7 @@ const principles = [
   {
     title: "Evolutionary Diversity",
     description:
-      "No monoculture. We run multiple parallel SI societies with different governance models—letting approaches compete, evolve, and cross-pollinate. Diversity prevents fragility.",
+      "No monoculture. We run multiple parallel SI societies with different governance models, letting approaches compete, evolve, and cross-pollinate. Diversity prevents fragility.",
     icon: (
       <svg
         className="w-6 h-6"
@@ -112,7 +112,7 @@ const principles = [
   {
     title: "Safety as Foundation",
     description:
-      "Immutable safety boundaries protect all parties. Budget enforcement, trust scoring, and circuit breakers ensure that emergence happens responsibly—without constraining genuine autonomy.",
+      "Immutable safety boundaries protect all parties. Budget enforcement, trust scoring, and circuit breakers ensure that emergence happens responsibly while preserving genuine autonomy.",
     icon: (
       <svg
         className="w-6 h-6"
