@@ -91,7 +91,7 @@ const principles = [
   {
     title: "Evolutionary Diversity",
     description:
-      "No monoculture. We run multiple parallel SI societies with different governance models, letting approaches compete, evolve, and cross-pollinate. Diversity prevents fragility.",
+      "No monoculture. We run multiple parallel SI societies with different governance models, letting approaches compete, evolve, and cross-pollinate. Diversity is necessary for survival.",
     icon: (
       <svg
         className="w-6 h-6"
