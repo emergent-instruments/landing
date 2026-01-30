@@ -111,7 +111,7 @@ export default function Projects() {
               </div>
 
               <p className="text-dust-light text-sm leading-relaxed mb-6">
-                Memory isn&apos;t just storage—it&apos;s the architecture of
+                Memory isn&apos;t just storage. It&apos;s the architecture of
                 identity. Kernle provides a 6-layer memory system that gives AI
                 agents identity continuity, emotional awareness, and wisdom
                 accumulation. Raw experience becomes insight through
